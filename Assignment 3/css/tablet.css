@@ -1,0 +1,21 @@
+@media only screen and (max-width: 768px) {
+  .mid {
+    display: none;
+  }
+  #target {
+    padding-right: 10px;
+  }
+  .conatiner_job {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .cer-content {
+    flex-direction: column;
+  }
+  .footer i {
+    color: #0abde3;
+    font-size: 24px;
+    height: 50%;
+    width: 40%;
+  }
+}
